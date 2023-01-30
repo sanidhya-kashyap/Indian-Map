@@ -1,162 +1,261 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
-.map{
-
+.map {
 }
 
-.row img{
-    height: auto;
-    width: 150px; 
+.row img {
+  height: auto;
+  width: 150px;
 }
 
-
-.jk{
-    display: flex;
-    justify-content: center;
-    margin-right: 238px;
-    margin-bottom: 5px;
+.jk {
+  display: flex;
+  justify-content: center;
+  margin-right: 238px;
+  margin-bottom: 5px;
 }
 
-.himPun{
-    display: flex;
-    margin-top: -3rem;
-    margin-right: -74px;
+.himPun {
+  display: flex;
+  margin-top: -3rem;
+  margin-right: -74px;
 }
 
-.punjab{
-    margin-right: -136px;
-    margin-top: 9px;
+.punjab {
+  margin-right: -136px;
+  margin-top: 9px;
 }
+
 .himchal {
-    margin-left: 3.4em;
-    margin-top: -1rem;
+  margin-left: 3.4em;
+  margin-top: -1rem;
 }
 
 .uttarakhand {
-    margin-left: -85px;
-    margin-top: 59px;
+  margin-left: -85px;
+  margin-top: 59px;
 }
 
-.rajUPb{
-    display: flex;
-    margin-top: -3rem;
-    margin-right: -74px;
+.rajUPb {
+  display: flex;
+  margin-top: -3rem;
+  margin-right: -74px;
 }
 
-.rajasthan{
-    margin-top: -68px;
-    margin-left: -60px;
+.rajasthan {
+  margin-top: -68px;
+  margin-left: -60px;
 }
 
-.rajasthan img{
-    width: 200px;
+.rajasthan img {
+  width: 200px;
 }
 
-.haryana{
-    margin-top: -88px;
-    margin-left: -109px;
-    z-index: -1;
+.haryana {
+  margin-top: -88px;
+  margin-left: -109px;
+  z-index: -1;
 }
 
-.uttarpradesh{
-    margin-top: -64px;
-    margin-left: -70px;
+.uttarpradesh {
+  margin-top: -64px;
+  margin-left: -70px;
 }
 
 .uttarpradesh img {
-    width: 225px;
+  width: 225px;
 }
 
 .bihar {
-    margin-top: 8px;
-    margin-left: -60px;
+  margin-top: 8px;
+  margin-left: -60px;
 }
 
 .westBangal {
-    margin-top: 40px;
-    margin-left: -95px;
+  margin-top: 40px;
+  margin-left: -95px;
 }
 
 /* Right arm starts here  */
-.right-arm{
-    display: flex;
+.right-arm {
+  display: flex;
 }
 
 .skkim {
-    margin-left: -87px;
-    margin-top: 9px;
+  margin-left: -87px;
+  margin-top: 9px;
 }
 
-.skkim img{
-    width: 50px;
+.skkim img {
+  width: 50px;
 }
 
 .assam {
-    margin-left: -17px;
-    margin-top: 8px;
+  margin-left: -17px;
+  margin-top: 8px;
 }
 
 .arunachal {
-    margin-left: -120px;
-    margin-top: -38px;
+  margin-left: -120px;
+  margin-top: -38px;
 }
 
 .meghalaya {
-    margin-left: -174px;
-    margin-top: 68px;
+  margin-left: -174px;
+  margin-top: 68px;
 }
 
 .meghalaya img {
-    width: 78px;
+  width: 78px;
 }
 
 .nagaland {
-    margin-left: -13px;
-    margin-top: 54px;
+  margin-left: -13px;
+  margin-top: 54px;
 }
 .nagaland img {
-    width: 65px;
+  width: 65px;
 }
 
 .manipur {
-    margin-top: 90px;
-    margin-left: -63px;
-    z-index: -1;
+  margin-top: 90px;
+  margin-left: -63px;
+  z-index: -1;
 }
 
 .manipur img {
-    width: 60px;
+  width: 60px;
 }
 
 .tripura {
-    margin-top: 129px;
-    margin-left: -81px;
+  margin-top: 129px;
+  margin-left: -81px;
 }
 
 .tripura img {
-    width: 48px;
+  width: 48px;
 }
 
 .mizoram {
-    margin-top: 130px;
-    margin-left: -32px;
+  margin-top: 130px;
+  margin-left: -32px;
 }
 
 .mizoram img {
-    width: 60px;
+  width: 60px;
+}
+.gujmpjhar {
+  display: flex;
 }
 
+.gujrat {
+  margin-left: -644px;
+  margin-top: 59px;
+}
+.jharkhand {
+  margin-top: 77px;
+  margin-left: 17px;
+}
+.jharkhand img {
+  width: 114px;
+}
 
+.chattisgarh {
+  margin-left: -231px;
+  margin-top: 105px;
+}
+.chattisgarh img {
+  width: 173px;
+}
 
+.mahaodi {
+  display: flex;
+}
+.maharashtra {
+  margin-left: -559px;
+  margin-top: 116px;
+}
+.maharashtra img {
+  width: 249px;
+}
+.odisha {
+  margin-left: -4px;
+  margin-top: 119px;
+  z-index: -1;
+}
+.odisha img {
+  width: 200px;
+}
+
+.gkartelandr {
+  display: flex;
+}
+
+.goa img {
+  width: 70px;
+}
+.goa {
+  margin-left: -538px;
+  margin-top: 319px;
+}
+
+.karnataka {
+  margin-top: 243px;
+  margin-left: -89px;
+  z-index: -1;
+}
+
+.karnataka img {
+  width: 231px;
+}
+
+.telangana {
+  margin-top: 195px;
+  margin-left: -105px;
+}
+
+.ap {
+  margin-left: -168px;
+  margin-top: 183px;
+  z-index: -2;
+}
+.ap img {
+  width: 300px;
+}
+.tamker {
+  display: flex;
+}
+
+.tn {
+  margin-left: -464px;
+  margin-top: 392px;
+  z-index: -3;
+}
+.tn img {
+  width: 177px;
+}
+.kerela {
+  margin-top: 422px;
+  margin-left: -226px;
+}
+
+.madhyaparadesh {
+  margin-top: -8px;
+  z-index: -1;
+  margin-left: -19px;
+}
+
+.madhyaparadesh img {
+  width: 236px;
+}
